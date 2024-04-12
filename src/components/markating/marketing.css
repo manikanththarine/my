@@ -1,0 +1,106 @@
+.sets {
+    font-size: 16Px;
+    margin-top: 1%;
+    margin-left: -14px;
+}
+
+.marque {
+    background-color: rgb(247, 0, 0);
+    width: min-content;
+    border: 14% solid;
+    color: white;
+    margin-top: 5%;
+}
+
+.hea p {
+    font-size: 10Px
+}
+
+.heaa p {
+    font-size: 10Px
+}
+
+
+
+.heaa {
+    margin-top: 2%;
+}
+
+.divrows {
+    font-size: 13Px;
+}
+
+.divrows .rows {
+    width: 38vh;
+    margin-top: 0.5%;
+    cursor: pointer;
+}
+
+.divrow {
+    font-size: 13Px;
+}
+
+.divrow .row {
+    width: 38vh;
+    margin-top: 0.5%;
+    cursor: pointer;
+}
+
+.divrow .row img {
+    width: 7.5vh;
+    margin-left: 25%;
+    margin-top: -10px;
+}
+
+.sidenav {
+    float: right;
+    margin-right: 25%;
+    margin-top: -84vh;
+    height: 100%;
+}
+
+.para {
+    margin: 1% 21%;
+    width: 49%;
+    margin-top: -84vh;
+
+}
+
+@media screen and (max-width: 1352px) {
+    .sets {
+        font-size: 12px;
+    }
+
+    .hea {
+        display: none;
+    }
+
+    .sets {
+        display: none;
+    }
+
+    .divrow {
+        display: none;
+    }
+
+    .divrows {
+        display: none;
+    }
+
+    .heaa {
+        display: none;
+    }
+
+
+    .para {
+        margin: 1% 8%;
+        width: 78%;
+
+    }
+
+    .marque {
+        margin-top: 9vh;
+
+    }
+
+}

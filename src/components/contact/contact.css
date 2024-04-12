@@ -1,0 +1,62 @@
+.con {
+    text-align: center;
+    color: white;
+}
+
+.contact {
+    border: 2px solid;
+    border-radius: 5px;
+    width: 50%;
+    height: 55vh;
+    margin-left: 25%;
+    margin-top: -8%;
+    border-color: aliceblue;
+    background-color: white;
+}
+
+.text {
+    margin-left: 15px;
+    margin-top: 5px
+}
+
+.text2 {
+    margin-left: 55px
+}
+
+.img {
+    margin-left: 505px;
+    margin-top: -265px
+}
+.name{
+   height: 35px;
+    width: 50vh;
+
+}
+
+@media screen and (max-width:940px) {
+
+    .contact {
+        border: 2px solid;
+        border-radius: 5px;
+        width: 80%;
+        height: 50vh;
+        margin-left: 10%;
+        margin-top: -8%;
+        border-color: aliceblue;
+        background-color: white;
+    }
+
+    .text {
+        margin-left: auto;
+    }
+
+    .text2 {
+        margin-left: 50px;
+        width: 60vh
+    }
+
+    .img {
+        display: none
+    }
+
+}

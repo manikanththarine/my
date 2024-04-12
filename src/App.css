@@ -6,7 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+*{
+  margin: 0;
+  padding: 0
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,7 +35,47 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.containers {
+  margin-top: 4%;
+  width: 70%;
+  line-height: 15px
+}
+
+
+.profile-image .logo-placed {
+  width: 4.8vw;
+  height: 4.8vw;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.profile-image .logo-placed img {
+  width: 100%;
+}
+
+.profile-image .logo-placed {
+  width: 6.8vw;
+  height: 6.8vw;
+
+}
+
+.file {
+  margin-top: -20%;
+  margin-left: 55%;
+  text-overflow: hidden;
+}
+body{  
+  /* background: url('/src/accects/ad3.jpg'); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif !important;
 }

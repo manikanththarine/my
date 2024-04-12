@@ -1,0 +1,338 @@
+.hero {
+    height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero img {
+    width: 200px;
+}
+
+.feature {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(52, 52, 52, 0.215);
+    border: 0.1px solid rgba(0, 0, 0, 0.433);
+    border-radius: 4px;
+    margin: 15px;
+}
+
+.feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+.feature .fe-box img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.feature .fe-box h6 {
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    margin-top: 1px;
+    color: #ffffff;
+    background-color: #fddde4;
+    display: inline-block;
+}
+
+.feature .fe-box:nth-child(2) h6 {
+    background-color: #3caaa7;
+
+}
+.feature .fe-box:nth-child(3) h6 {
+    background-color: #3d5fa4;
+
+}
+.feature .fe-box:nth-child(4) h6 {
+    background-color: #3caa68;
+
+}
+.feature .fe-box:nth-child(5) h6 {
+    background-color: #a8aa3c;
+
+}
+.feature .fe-box:nth-child(6) h6 {
+    background-color: #aa903c;
+
+}
+
+#product1 {
+    text-align: center;
+}
+
+#product1 .pro {
+    width: 15%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 20px 22px 30px rgba(0, 0, 0, 0.3);
+    margin: 20px 52px 0;
+    transition: 0.2s ease;
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 25, 0.3);
+}
+
+#product1 .pro img {
+    width: 100px;
+    border-radius: 2px;
+
+}
+
+#product1 .pro .des {
+    text-align: start;
+    padding: 10px;
+}
+
+#product1 .pro .des span {
+    color: #606063;
+    font-size: 12px;
+}
+
+#product1 .pro .des h5 {
+    color: #1a1a1a;
+    font-size: 15px;
+    padding-top: 7px;
+}
+
+#product1 .pro .des i {
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+#product1 .pro .des h4 {
+    font-size: 15px;
+    color: #088178;
+    font-weight: 700;
+    padding-top: 7px;
+}
+
+#product1 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #fddde4;
+    font-weight: 500;
+    color: #088718;
+}
+
+#product1 h2 {
+    color: #fff;
+}
+
+#product1 p {
+    color: #fff;
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+#product1 .pro-container button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30;
+    color: #1a1a1a;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transform: 0.2s;
+
+}
+#product1 .pro-container button:hover {
+    background: #088178;
+    color: #fff;
+}
+
+#banner {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url("./lion\ brace.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 199px;
+    border-radius: 2px;
+}
+
+#banner h4 {
+    color: #fff;
+    font-size: 17px;
+
+}
+
+#banner h2 {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+
+}
+
+#banner h2 span {
+    color: #e11919;
+}
+
+#banner button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30;
+    color: #1a1a1a;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transform: 0.2s;
+
+}
+
+#banner button:hover {
+    background: #088178;
+    color: #fff;
+}
+
+#sm-banner .banner-box {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-image: url("./normal\ brace.jpg");
+    border-radius: 5px;
+    min-width: 600px;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    padding: 30px;
+}
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 100px;
+
+}
+
+#sm-banner h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#sm-banner h2 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#sm-banner span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#sm-banner button {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transform: 0.2s;
+    border-radius: 2px;
+
+}
+
+#sm-banner .banner-box:hover button {
+    background: #088178;
+    border: 1px solid #088178;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url("./lion\ brace.jpg");
+
+}
+
+
+
+
+#banner3 .banner-box {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-image: url("./lion\ brace.jpg");
+    min-width: 30%;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3 {
+    color: #e70606;
+    font-weight: 800;
+    font-size: 15px;
+
+}
+
+#banner3 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 60px; 
+}
+#banner3 .banner-box3 {
+    background-image: url("./brace.jpg");
+
+}
+#banner3 .banner-box4 {
+    background-image: url("./normal\ brace.jpg");
+
+}
+
+@media (max-width:799px){
+    
+}
