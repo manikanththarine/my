@@ -102,7 +102,7 @@ const Navbar = () => {
                             <a onClick={() => GetScreen("contact")} >Contact
                             </a>
                         </li>
-                        <button className='btn' style={{ cursor: "pointer", color: "black" }} onClick={() => GetScreen("Sign_in")} >Sign In</button>
+                        <button className='btn'  onClick={() => GetScreen("Sign_in")} >Sign In</button>
                     </ul>
                     
                     <div className='hamburger' onClick={handleClick} style={{ color: "black" }}>
